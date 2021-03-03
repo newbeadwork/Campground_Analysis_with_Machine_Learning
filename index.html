@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Showcase Portfolio Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/">
+
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="https://shadiaduery.github.io/Web-Design-Challenge/index.html">Showcase Portfolio Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Data.html">Data</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Comparisons
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Comparison.html">General Comparison</a>
+            <a class="dropdown-item" href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Comparison_N_S_Lat_Temp.html">N vs S Temperature</a>
+            <a class="dropdown-item" href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Comparison_N_S_Lat_Humidity.html">N vs S Humidity</a>
+            <a class="dropdown-item" href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Comparison_N_S_Lat_Cloudiness.html">N vs S Cloudiness</a>
+            <a class="dropdown-item" href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Comparison_N_S_Lat_Windspeed.html">N vs S Wind Speed</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+          <div class="col-md-6 col-md-3">
+          <h1> Summary: Latitude vs X</h1>
+          <a href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Max_Temperature.html">
+         <img src="Images/LatvsTemp.png" alt="Graph: City Latitude vs Temperature" class="img-fluid" alt="Responsive image"/>
+         </a> 
+         <p>The purpose of this project was to analyze how weather changes as you get 
+          closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+          <br>
+          <br>
+          After assembling the dataset, we used Matplotlib to plot various aspects of the weater vs. latitude. 
+          Factors we looked at included: Temperature, cloudiness, wind speed, and humidity. 
+          This site provides the source data and visualization created as part of the analysis, as well as 
+          explanations and descriptions of any trends and correlations witnessed.
+          <br>
+          </p>
+          </div>
+          <div class="col-lg-6 col-md-3">
+            <h1><a href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Comparison.html">Visualizations</a></h1>
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-3">
+                  <a href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Max_Temperature.html"><img src="Images/LatvsTemp.png" class="img-fluid" alt="Responsive image" alt="Graph: City Latitude vs Temperature" </a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-3">  
+                  <a href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Humidity.html"><img src="Images/LatvsHumidity.png" class="img-fluid" alt="Responsive image" alt="Graph: City Latitude vs Humidity" </a>
+                </div>
+                  <div class="col-lg-6 col-md-12 col-sm-3">
+                    <a href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Cloudiness.html"><img src="Images/LatvsCloudiness.png" class="img-fluid" alt="Responsive image" alt="Graph: City Latitude vs Cloudiness" </a>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-3">
+                      <a href="https://shadiaduery.github.io/Web-Design-Challenge/Resources/Wind_Speed.html"><img src="Images/LatvsWindSpeed.png" class="img-fluid" alt="Responsive image" alt="Graph: City Latitude vs Wind Speed" </a>
+                    </div>
+                 </div>
+                </div>           
+</body>
+
+</html>

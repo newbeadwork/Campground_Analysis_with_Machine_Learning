@@ -1,0 +1,47 @@
+p {
+    padding: 20px 0;
+    margin: 20px;
+    margin-bottom: 20px;
+  }
+  body {
+    padding: 20px;
+    margin: 5px;
+    font-family: link rel="preconnect" href="https://fonts.gstatic.com"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet";
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+  }
+  
+  .header {
+    background: #333;
+  }
+  
+  h1 {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin: 30;
+    font-size: 22px;
+    color: rgb(10, 10, 10);
+    text-align: left;
+  }
+  
+  h2 {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px 0;
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+  }
+  
+  h3 {
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 0px 0;
+    font-size: 18px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+  }
