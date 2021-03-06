@@ -3,7 +3,7 @@
 Website: https://shadiaduery.github.io/Portfolio_Project/
 
 ## Title
-Resource Assessment 
+Resource Assessment of Recreation.gov Campgrounds in the United States
 
 ### Collaborators: 
 Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Rischitelli
