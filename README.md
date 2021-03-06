@@ -3,6 +3,7 @@
 Website: https://shadiaduery.github.io/Portfolio_Project/
 
 ## Title
+Resource Assessment 
 
 ### Collaborators: 
 Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Rischitelli
@@ -10,10 +11,7 @@ Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Ris
 ### Business Question:
 We are a team of consultants hired to determine where to distribute financial resources among the campgrounds in the US. Our goal is to identify which campgrounds are the least popular and shift the funding from least popular to the most popular campgrounds to improve facilities and resources available.
 
-### Hypothesis:
-
-
-### Visualizations:
+### Goals:
 1. 
 
 2. 
@@ -47,7 +45,7 @@ Describe your project topic, tools you used.
 4) You must use at least two of the below:
 Python Pandas, Python Matplotlib, HTML/CSS/Bootstrap, JavaScript Plotly/D3/Leaflet , SQL Database, MongDB Database, Spark, Amazon AWS, Tableau
 
-5) Optional: Host your applicaiton on Heroky, Github or tool of your choice
+5) Optional: Host your application on Heroky, Github or tool of your choice
 
 6) Prepare a 10-minute data storytelling preparation that addresses your business question; mention how ML added to or did not add to your analysis
 
