@@ -11,6 +11,8 @@ Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Ris
 ### Business Question:
 We are a team of consultants hired to determine where to distribute financial resources among the campgrounds in the US. Our goal is to identify which campgrounds are the least popular and shift the funding from least popular to the most popular campgrounds to improve facilities and resources available.
 
+Popularity = "booked solid". We will look at capacity (# of campsites) per campground and how often campsites are full (% of total capacity).
+
 ### Goals:
 1. 
 
