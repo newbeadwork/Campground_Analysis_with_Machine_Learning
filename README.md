@@ -8,7 +8,7 @@ Website: https://shadiaduery.github.io/Portfolio_Project/
 Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Rischitelli
 
 ### Business Question:
-
+We are a team of consultants hired to determine where financial resources will be distributed amoung the campgrounds in the US. We are going to determine which campgrounds are the least popular and shift the funding from least popular campgrounds to the most popular campgrounds.
 
 ### Hypothesis:
 
