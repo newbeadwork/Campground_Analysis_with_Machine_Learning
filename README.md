@@ -11,10 +11,23 @@ Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Ris
 ### Business Question:
 We are a team of consultants hired to determine where to distribute financial resources among the campgrounds in the US. Our goal is to identify which campgrounds are the least popular and shift the funding from least popular to the most popular campgrounds to improve facilities and resources available.
 
-Popularity = "booked solid". We will look at capacity (# of campsites) per campground and how often campsites are full (% of total capacity).
+MVP
+- What characteristics describe the most popular campgrounds?
+
+Secondary Analysis (if time allows)
+- Worst performing sites for comparison
+
+### Hypothesis
+Ocean, lake?
 
 ### Goals:
-1. 
+1. Use data that we have, parse through the 'ActivityName' that the data has and perform an unsupervised machine learning cluster analysis - what features to measure? (Pre-filtered on overnight and campsite only. California, Oregon, Washington campgrounds only.)
+    Measures for cluster: (defined by ('FacilityName'))
+        - Average $ per booking
+        - Keywords (activities)
+        - State
+        - Number of activities available ('ActivityName')
+        - Number of campsites ('NumberofCampsites')
 
 2. 
 
