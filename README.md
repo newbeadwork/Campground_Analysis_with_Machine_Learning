@@ -18,16 +18,16 @@ Secondary Analysis (if time allows)
 - Worst performing sites for comparison
 
 ### Hypothesis
-Ocean, lake?
+
 
 ### Goals:
-1. Use data that we have, parse through the 'ActivityName' that the data has and perform an unsupervised machine learning cluster analysis - what features to measure? (Pre-filtered on overnight and campsite only. California, Oregon, Washington campgrounds only.)
-    Measures for cluster: (defined by ('FacilityName'))
-        - Average $ per booking
-        - Keywords (activities)
-        - State
-        - Number of activities available ('ActivityName')
-        - Number of campsites ('NumberofCampsites')
+1. Clustering to understand the relationship between popularity* and activities (Nataliia). 
+
+*Popularity is defined by:
+    a.  Demand (# of reservations/# of campsites)
+    b. How far in advance reservations are grouped
+    c. Average number nights in reservations
+    d. Types of activites
 
 2. 
 
