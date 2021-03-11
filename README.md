@@ -21,17 +21,26 @@ Secondary Analysis (if time allows)
 
 
 ### Goals:
-1. Clustering to understand the relationship between popularity* and activities (Nataliia). 
+1. Discuss the types of activities (ex: winter activities, water activities, climbing-related activities, etc.). Some of these activities are similar and can be grouped. This is important because if a campground has a similar acitivity as another, then you can compare. 
+
+Data cleaning and making sure activity names match so that we can have confidence that our activity comparisons are correct. Without this, you are losing a dimension that can dirty our cluster analysis later (extra column later that is unnecessary). 
+
+Data cleaning = creating confidence in our data to make sure we are correctly answering our question with our further analysis, like choosing the correct variables for ML later.
+
+
+2. Discuss the most popular activities
+
+3. 
+
+4.  Clustering to understand the relationship between popularity* and activities (Nataliia). 
+
+5. Visually connect Nataliia's findings to our final report
 
 *Popularity is defined by:
-    a.  Demand (# of reservations/# of campsites)
+    a. Demand (# of reservations/# of campsites)
     b. How far in advance reservations are grouped
     c. Average number nights in reservations
     d. Types of activites
-
-2. 
-
-3. 
 
 ### Data Sources:
 -UC Irvine Machine Learning Repository: https://archive.ics.uci.edu/ml/index.php
