@@ -9,7 +9,7 @@ Resource Assessment of Recreation.gov Campgrounds in the United States
 Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Rischitelli
 
 ### Business Question:
-We are a team of consultants hired to determine where to distribute financial resources among the campgrounds in the US. Our goal is to identify which campgrounds are the least popular and shift the funding from least popular to the most popular campgrounds to improve facilities and resources available.
+We are a team of consultants hired to determine where to distribute financial resources among the campgrounds in Washington, Oregon, and California. Our goal is to identify which, if any, campground characteristics impact a campground's popularity, so we can make decisions about future funding of our most popular campgrounds.
 
 MVP
 - What characteristics describe the most popular campgrounds?
