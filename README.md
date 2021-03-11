@@ -37,21 +37,26 @@ Data cleaning = creating confidence in our data to make sure we are correctly an
 
     Compare the difference between the groups to see if we should include that camp type in our cluster analysis.
 
-    Box plots
+4. Do site types affect the popularity of a campground? (Shadia)
+
+    a. Determine groups of campsite types
+    b. Plot the groups of campsite types (box plots)
+
     x = 4 different camp types
-    y = number of days to book
+    y = demand (reservations/campsites)
 
     ^ Visualize if there is a difference in the median number of days across the four types. If there is not, than the median number of days probably doesn't affect popularity. If the median does differ, then it could impact popularity and it should be added to the ML.
 
 4.  Clustering to understand the relationship between popularity* and activities (Nataliia). 
 
+    *Popularity is defined by:
+        a. Demand (# of reservations/# of campsites)
+        b. How far in advance reservations are grouped
+        c. Average number nights in reservations
+        d. Types of activites
+
 5. Visually connect Nataliia's findings to our final report
 
-*Popularity is defined by:
-    a. Demand (# of reservations/# of campsites)
-    b. How far in advance reservations are grouped
-    c. Average number nights in reservations
-    d. Types of activites
 
 ### Data Sources:
 -UC Irvine Machine Learning Repository: https://archive.ics.uci.edu/ml/index.php
