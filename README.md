@@ -27,17 +27,16 @@ Data cleaning and making sure activity names match so that we can have confidenc
 
 Data cleaning = creating confidence in our data to make sure we are correctly answering our question with our further analysis, like choosing the correct variables for ML later.
 
+1. Intro graphs and question set up (Anna)
+    Present dilemna and the initial look at some trends to describe how we are going to answer our business question.
+    Camping, popularity, etc.
+    We found out there are different campers - RV vs. tent, certain activities. So we wanted to figure out what characteristics are associated with popular campgrounds. Does that preference show in the types of campgrounds and their popularity?
 
-2. Discuss the most popular activities
+2. Outside research and trends to create context for this problem (Vincent)
+    a. Information about campgrounds
+    b. Trends in camping
 
-3. Bar chart of the 4 different camping types vs. quantitative values of "popularity".
-    a. Tent camping - demand, advanced, reservations, average # of nights
-    b. Group site - demand, advanced, reservations, average # of nights
-    c. Electric - demand, advanced, reservations, average # of nights
-
-    Compare the difference between the groups to see if we should include that camp type in our cluster analysis.
-
-4. Do site types affect the popularity of a campground? (Shadia)
+3. Do site types affect the popularity of a campground? (Shadia)
 
     a. Determine groups of campsite types
     b. Plot the groups of campsite types (box plots)
@@ -47,7 +46,9 @@ Data cleaning = creating confidence in our data to make sure we are correctly an
 
     ^ Visualize if there is a difference in the median number of days across the four types. If there is not, than the median number of days probably doesn't affect popularity. If the median does differ, then it could impact popularity and it should be added to the ML.
 
-4.  Clustering to understand the relationship between popularity* and activities (Nataliia). 
+4. Find a feature of our campgrounds (like siteype) to explore that might add to final analysis (Vincent)
+
+5.  Clustering to understand the relationship between popularity* and activities (Nataliia). 
 
     *Popularity is defined by:
         a. Demand (# of reservations/# of campsites)
@@ -55,7 +56,11 @@ Data cleaning = creating confidence in our data to make sure we are correctly an
         c. Average number nights in reservations
         d. Types of activites
 
-5. Visually connect Nataliia's findings to our final report
+6. Visually connect Nataliia's findings to our final report (Priya)
+
+7. Organize the repository (Vincent)
+
+8. Finalize project presentation
 
 
 ### Data Sources:
