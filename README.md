@@ -30,7 +30,18 @@ Data cleaning = creating confidence in our data to make sure we are correctly an
 
 2. Discuss the most popular activities
 
-3. 
+3. Bar chart of the 4 different camping types vs. quantitative values of "popularity".
+    a. Tent camping - demand, advanced, reservations, average # of nights
+    b. Group site - demand, advanced, reservations, average # of nights
+    c. Electric - demand, advanced, reservations, average # of nights
+
+    Compare the difference between the groups to see if we should include that camp type in our cluster analysis.
+
+    Box plots
+    x = 4 different camp types
+    y = number of days to book
+
+    ^ Visualize if there is a difference in the median number of days across the four types. If there is not, than the median number of days probably doesn't affect popularity. If the median does differ, then it could impact popularity and it should be added to the ML.
 
 4.  Clustering to understand the relationship between popularity* and activities (Nataliia). 
 
