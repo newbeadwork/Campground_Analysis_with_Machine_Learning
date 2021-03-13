@@ -26,9 +26,12 @@ In short,
     
     We found out there are different campers - RV vs. tent, certain activities. So we wanted to figure out what characteristics are associated with popular campgrounds. Does that preference show in the types of campgrounds and their popularity?
 
+    b. Summary cluster viz
+
 2. Outside research and trends to create context for this problem (Vincent)
     a. Information about campgrounds
     b. Trends in camping
+    c. Look at best and worst cluster
 
 3. Do site types affect the popularity of a campground? (Shadia)
 
@@ -37,8 +40,6 @@ In short,
 
     x = 4 different camp types
     y = demand (reservations/campsites)
-
-    ^ Visualize if there is a difference in the median number of days across the four types. If there is not, than the median number of days probably doesn't affect popularity. If the median does differ, then it could impact popularity and it should be added to the ML.
 
 4. Find a feature of our campgrounds (like siteype) to explore that might add to final analysis (Vincent)
 
@@ -52,9 +53,10 @@ In short,
     
     Adding following to cluster:
         e. minimum time from order date to start date
-        f. 
+        f. will add additional labels 
 
 6. Visually connect Nataliia's findings to our final report (Priya)
+    - visualize cluster analysis
 
 7. Organize the repository (Vincent)
 
@@ -82,7 +84,6 @@ Other work:
 Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised machine learning (cluster analysis), supervised machine learning (Sklearn, Xgboost, SciKit-Learn).
 
 ### Project Description:
-
 Describe your project topic, tools you used. 
 
 
