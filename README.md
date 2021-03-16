@@ -46,9 +46,9 @@ In short,
 
     *Popularity is defined by:
         a. Demand (# of reservations/# of campsites)
-        b. How far in advance reservations are grouped
-        c. Average number nights in reservations
-        d. Types of activites
+        b. How far in advance reservations are grouped (median time from reservation date to start date) - create normal distribution
+        c. How far in advance reservations are booked (minimum time from reservation date to start date) - identify outliers
+        d. Average number nights in reservations
 
 6. Visually connect Nataliia's findings to our final report (Priya)
 
