@@ -14,6 +14,15 @@ In short,
 ### Project Description:
 Describe your project topic, tools you used. 
 
+In order to identify which campgrounds are popular, we needed to define "popularity". We chose 4 dimensions to represent "popularity", which drove our cluster analysis.
+
+    *Popularity is defined by: 
+    - Demand (# of reservations/# of campsites) 
+    - How far in advance reservations are grouped (median time from reservation date to start date) - create normal distribution 
+    - How far in advance reservations are booked (minimum time from reservation date to start date) - identify outliers 
+    - Average number nights in reservations
+
+
 
 
 
@@ -53,7 +62,7 @@ Describe your project topic, tools you used.
         a. Demand (# of reservations/# of campsites)
         b. How far in advance reservations are grouped
         c. Average number nights in reservations
-        d. Types of activites
+    
     
     Adding following to cluster:
         e. minimum time from order date to start date
