@@ -1,8 +1,6 @@
-## Final Portfolio Project
-
-Website: https://shadiaduery.github.io/Portfolio_Project/
 
 # Campground Characteristic Analysis of Campgrounds in CA, OR, and WA
+## Final Portfolio Project
 
 ### Collaborators: 
 Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Rischitelli
