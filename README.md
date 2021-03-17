@@ -13,6 +13,12 @@ We are a team of consultants hired to determine where to distribute financial re
 In short,
 - What characteristics describe the most popular campgrounds in Washington, Oregon, and California?
 
+### Project Description:
+Describe your project topic, tools you used. 
+
+
+
+
 ### Goals:
 0. Data Cleaning
     Discuss the types of activities (ex: winter activities, water activities, climbing-related activities, etc.). Some of these activities are similar and can be grouped. This is important because if a campground has a similar acitivity as another, then you can compare. 
@@ -63,28 +69,17 @@ In short,
 8. Finalize project presentation
 
 
-Other work:
-- Best/worst performing clusters 
-- Reservations file - looking over time 
-- Powerpoint presentation setup
-- 
-
-
 ### Results
 - Two features: remoteness and size of campgrounds
 - 
 
 
 ### Data Sources:
--UC Irvine Machine Learning Repository: https://archive.ics.uci.edu/ml/index.php
--
--
+Recreation.gov campsite data
 
 ### Tools Used:
 Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised machine learning (cluster analysis), supervised machine learning (Sklearn, Xgboost, SciKit-Learn).
 
-### Project Description:
-Describe your project topic, tools you used. 
 
 
 
