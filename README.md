@@ -1,6 +1,8 @@
 ## Final Portfolio Project
 
-Website: https://shadiaduery.github.io/Portfolio_Project/
+Tableau Slide Deck 1: https://public.tableau.com/profile/shadia.duery#!/vizhome/Final-Project_twbx_16159324170940/Story1?publish=yes
+
+Tableau Slide Deck 2: https://public.tableau.com/profile/shadia.duery#!/vizhome/Camping_16160189818690/Story?publish=yes
 
 # Campground Characteristic Analysis of Campgrounds in CA, OR, and WA
 
@@ -58,20 +60,22 @@ In short,
 
 
 ### Data Sources:
--UC Irvine Machine Learning Repository: https://archive.ics.uci.edu/ml/index.php
--
--
+-Recreation.gov: https://ridb.recreation.gov/download
+- Dataset was built with three filters:
+    - Camping Season (May 1- Sep 30)
+    - Reservable online campsites
+    - Campsites located in Washington, Oregon and California (West Coast)
 
 ### Tools Used:
 - Business Intelligence: Tableau
 - Python Scripting: Python 3 | Pandas | NumPy | Matplotlib | Seaborn | Pyspark
-- Front-End Web Visualizations: HTML | CSS | Bootstrap | JavaScript Dashboarding | D3 | Plotly
 - AWS Management Console
 - Machine Learning: Supervised Machine Learning | Sklearn | Xgboost | SciKit-Learn 
 
 ### Project Description:
 
-Describe your project topic, tools you used. 
+We analysed a dataset on camping data. Our business question: "what characteristics make a campsite popular". First we defined popularity as measures of demand (#reservations/#campsites available), how far in advance people book their sites, and number of nights people camped on average. We also explored if the demand for types of campsites (tenting, group, remote, and RV&Structured), and the bundle of recreational activities found around the campground. 
+First we cleaned the data using Spark, and Jupyter Notebooks. We changed the data types to allow for calculations, and checked for NaN values. We filtered the data in different datasets that would allow us to go deeper into the analysis. We used Pandas DataFrames severatl Python Libraries to performed such tasks. For our exploratory analysis and final visualizations we used Tableau. We used cluster-analysis-unsupervised-machine-learning.
 
 ### Project Requirements:
 
