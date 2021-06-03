@@ -1,8 +1,10 @@
-## Final Portfolio Project
+Final Group Project for Dana Analysis Bootcamp.
 
-Tableau Slide Deck 1: https://public.tableau.com/profile/shadia.duery#!/vizhome/Final-Project_twbx_16159324170940/Story1?publish=yes
+Original repo: https://github.com/shadiaduery/Machine-Learning-Tableau
 
-Tableau Slide Deck 2: https://public.tableau.com/profile/shadia.duery#!/vizhome/Camping_16160189818690/Story?publish=yes
+Original visualizations:
+- Tableau Slide Deck 1: https://public.tableau.com/profile/shadia.duery#!/vizhome/Final-Project_twbx_16159324170940/Story1?publish=yes
+- Tableau Slide Deck 2: https://public.tableau.com/profile/shadia.duery#!/vizhome/Camping_16160189818690/Story?publish=yes
 
 # Campground Characteristic Analysis of Campgrounds in CA, OR, and WA
 
@@ -12,7 +14,7 @@ Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Ris
 
 ### Business Question:
 
-We are a team of consultants hired to determine where to distribute financial resources among the campgrounds in Washington, Oregon, and California. Our goal is to identify which, if any, campground characteristics impact a campground's popularity, so we can make decisions about future funding of our most popular campgrounds.
+We are a team of consultants hired to determine where to distribute financial resources among the federal campgrounds in Washington, Oregon, and California. Our goal is to identify which, if any, campground characteristics impact a campground's popularity, so we can make decisions about future funding of our most popular campgrounds.
 
 In short,
 - What characteristics describe the most popular campgrounds in Washington, Oregon, and California?
@@ -28,14 +30,14 @@ We analyzed a dataset from Recreation.gov to help us answer our business questio
 - How far in advance reservations are booked (minimum time from reservation date to start date) - identify outliers
 - Average number nights in reservations
 
-In addition to our popularity metrics, we also explored if the demand for types of campsites (tenting, group, remote, and RV & Structured), and the bundle of recreational activities found around the campground affected a campsite's demand. First we cleaned the data using Spark and Jupyter Notebooks since our dataset was so large. We changed the data types to allow for calculations, and checked for NaN values. We filtered the data in different datasets that would allow us to go deeper into the analysis. Because we had multiple dimensions from our definition of "popularity", we opted to use cluster analysis in order to differentiate our campground groups and characteristics. We used Pandas DataFrames several Python Libraries to performed such tasks. For our exploratory analysis and final visualizations, we used Tableau. 
+In addition to our popularity metrics, we also explored if the demand for types of campsites (tenting, group, remote, and RV & Structured), and the bundle of recreational activities found around the campground affected a campground's demand. First we cleaned the data using Python (Jupyter Notebooks) since our dataset was so large. We changed the data types to allow for calculations, and checked for NaN values. We filtered the data in different datasets that would allow us to go deeper into the analysis. Because we had multiple dimensions from our definition of "popularity", we opted to use cluster analysis (Sklearn AgglomerativeClustering) in order to differentiate our campground into different groups. For our exploratory analysis and final visualizations, we used Tableau. 
 
 ### Data Sources:
 -Recreation.gov: https://ridb.recreation.gov/download
 - Dataset was built with three filters:
     - Camping Season (May 1- Sep 30) for 2016-2020;
-    - Reservable online campsites;
+    - Only reservable online campsites;
     - Campground located in Washington, Oregon and California (West Coast).
 
 ### Tools Used:
-Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised machine learning (cluster analysis), supervised machine learning (Sklearn, Xgboost, SciKit-Learn).
+Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised machine learning (cluster analysis).
