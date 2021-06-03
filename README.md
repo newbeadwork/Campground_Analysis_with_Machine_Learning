@@ -1,4 +1,4 @@
-Final Group Project for Data Analysis Bootcamp.
+Re-thinking the Final Group Project for Data Analysis Bootcamp.
 
 Original repo: https://github.com/shadiaduery/Machine-Learning-Tableau
 
@@ -37,7 +37,12 @@ In addition to our popularity metrics, we also explored if the demand for types 
 - Dataset was built with three filters:
     - Camping Season (May 1- Sep 30) for 2016-2020;
     - Only reservable online campsites;
-    - Campground located in Washington, Oregon and California (West Coast).
+    - Campgrounds located in Washington, Oregon and California (West Coast).
 
 ### Tools Used:
 Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised machine learning (cluster analysis).
+
+### What am I working with now:
+I was truly excited about this project. Unfortunately, the limited amount of time that was given for compleating Final project did not allow me to fully incorporate all of ideas. Present points of interests includes;
+- clustering campgrounds using camp activities as characteristics;
+- deeper dive into campsites types as attribute of a campground popularity.
