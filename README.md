@@ -1,4 +1,4 @@
-Final Group Project for Dana Analysis Bootcamp.
+Final Group Project for Data Analysis Bootcamp.
 
 Original repo: https://github.com/shadiaduery/Machine-Learning-Tableau
 
