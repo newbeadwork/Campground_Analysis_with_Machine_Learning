@@ -33,9 +33,9 @@ In addition to our popularity metrics, we also explored if the demand for types 
 ### Data Sources:
 -Recreation.gov: https://ridb.recreation.gov/download
 - Dataset was built with three filters:
-    - Camping Season (May 1- Sep 30)
-    - Reservable online campsites
-    - Campsites located in Washington, Oregon and California (West Coast)
+    - Camping Season (May 1- Sep 30) for 2016-2020;
+    - Reservable online campsites;
+    - Campground located in Washington, Oregon and California (West Coast).
 
 ### Tools Used:
 Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised machine learning (cluster analysis), supervised machine learning (Sklearn, Xgboost, SciKit-Learn).
