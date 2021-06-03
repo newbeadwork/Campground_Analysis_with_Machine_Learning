@@ -43,6 +43,6 @@ In addition to our popularity metrics, we also explored if the demand for types 
 Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised machine learning (cluster analysis).
 
 ### What am I working with now:
-I was truly excited about this project. Unfortunately, the limited amount of time that was given for compleating Final project did not allow me to fully incorporate all of ideas. Present points of interests includes;
+I was truly excited about this project. Unfortunately, the limited amount of time that was given for compleating Final project did not allow to fully incorporate all of ideas. Present points of interests includes:
 - clustering campgrounds using camp activities as characteristics;
 - deeper dive into campsites types as attribute of a campground popularity.
