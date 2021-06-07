@@ -1,4 +1,7 @@
-Re-thinking the Final Group Project for Data Analysis Bootcamp.
+
+# Campground Characteristic Analysis of Campgrounds in CA, OR, and WA
+
+###  Re-thinking the Final Group Project for Data Analysis Bootcamp.
 
 Original repo: https://github.com/shadiaduery/Machine-Learning-Tableau
 
@@ -6,9 +9,7 @@ Original visualizations:
 - Tableau Slide Deck 1: https://public.tableau.com/profile/shadia.duery#!/vizhome/Final-Project_twbx_16159324170940/Story1?publish=yes
 - Tableau Slide Deck 2: https://public.tableau.com/profile/shadia.duery#!/vizhome/Camping_16160189818690/Story?publish=yes
 
-# Campground Characteristic Analysis of Campgrounds in CA, OR, and WA
-
-### Collaborators: 
+Collaborators: 
 
 Priya Arunachalam, Nataliia Sokolova, Vincent Durcan, Shadia Duery, and Anna Rischitelli
 
@@ -37,10 +38,11 @@ In addition to our popularity metrics, we also explored if the demand for types 
 - Dataset was built with three filters:
     - Camping Season (May 1- Sep 30) for 2016-2020;
     - Only reservable online campsites;
-    - Campgrounds located in Washington, Oregon and California (West Coast).
+    - Federal campgrounds located in Washington, Oregon and California (West Coast).
+* Due to a large size of initial data (more then limit of GitHub) all data did not fit in this repo, external resources were used for creating this project. 
 
 ### Tools Used:
-Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised machine learning (cluster analysis).
+Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised machine learning (cluster analysis Sklearn Agglomerative Clustering)).
 
 ### What am I working with now:
 I was truly excited about this project. Unfortunately, the limited amount of time that was given for compleating Final project did not allow to fully incorporate all of ideas. Present points of interests includes:
