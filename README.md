@@ -46,5 +46,6 @@ Tableau, Python Scripting (Python 3, Pandas, NumPy, Matplotlib, Unsupervised mac
 
 ### What am I working with now:
 I was truly excited about this project. Unfortunately, the limited amount of time that was given for compleating Final project did not allow to fully incorporate all of ideas. Present points of interests includes:
+- cleaning data optimization;
 - clustering campgrounds using camp activities as characteristics;
 - deeper dive into campsites types as attribute of a campground popularity.
