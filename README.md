@@ -33,6 +33,11 @@ We analyzed a dataset from Recreation.gov to help us answer our business questio
 
 In addition to our popularity metrics, we also explored if the demand for types of campsites (tenting, group, remote, and RV & Structured), and the bundle of recreational activities found around the campground affected a campground's demand. First we cleaned the data using Python (Jupyter Notebooks) since our dataset was so large. We changed the data types to allow for calculations, and checked for NaN values. We filtered the data in different datasets that would allow us to go deeper into the analysis. Because we had multiple dimensions from our definition of "popularity", we opted to use cluster analysis (Sklearn AgglomerativeClustering) in order to differentiate our campground into different groups. For our exploratory analysis and final visualizations, we used Tableau. 
 
+![clustering_1](Resources/images/clustering_1.png)
+
+![clustering_2](Resources/images/clustering_2.png)
+
+
 ### Data Sources:
 -Recreation.gov: https://ridb.recreation.gov/download
 - Dataset was built with three filters:
